@@ -7,10 +7,16 @@
         <field name="inherit_id" ref="base.view_partner_form"/>
         <field name="arch" type="xml">
             <xpath expr="//field[@name='company_type']" position="after">
+                <div class="d-md-flex">
+                <div>
                 <field name="is_parent"/>
                 <label for="is_parent"/>
+                </div>
+                <div>
                 <field name="is_student"/>
                 <label for="is_student"/>
+                </div>
+                </div>
             </xpath>
         </field>
     </record>
