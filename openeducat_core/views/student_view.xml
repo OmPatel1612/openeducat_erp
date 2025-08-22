@@ -78,7 +78,7 @@
                                 invisible ="active == True"/>
                         <div style="width:100%;" class="row align-items-center">
                             <div class="mb16 col-8 col-lg-10 px-4">
-                                <div class="d-flex student-name">
+                                <div class="d-md-   flex student-name">
                                     <h1 class="">
                                         <field name="title" widget="inline_many2one" placeholder="Title"/>
                                     </h1>
@@ -111,12 +111,17 @@
                                         <div name="o_address_format">
                                             <field name="street" placeholder="Street..."/>
                                             <field name="street2" placeholder="Street2"/>
-                                            <div class="address_format">
-                                                <field name="city" placeholder="City" style="width: 40%"/>
-                                                <field name="state_id" class="oe_no_button" placeholder="State"
-                                                       style="width: 37%" options="{&quot;no_open&quot;: True}"/>
-                                                <field name="zip" placeholder="ZIP" style="width: 20%"/>
+                                            <div class="address_format row">
+                                            <div class="col-12 col-md-4">
+                                                <field name="city" placeholder="City"/>
                                             </div>
+                                            <div class="col-12 col-md-4">
+                                                <field name="state_id" class="oe_no_button" placeholder="State" options="{'no_open': True}"/>
+                                            </div>
+                                            <div class="col-12 col-md-4">
+                                                <field name="zip" placeholder="ZIP"/>
+                                            </div>
+                                        </div>
                                             <field name="country_id" placeholder="Country" class="oe_no_button"
                                                    options="{&quot;no_open&quot;: True}"/>
                                         </div>
