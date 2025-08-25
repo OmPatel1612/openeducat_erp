@@ -78,7 +78,7 @@
                                 invisible ="active == True"/>
                         <div style="width:100%;" class="row align-items-center">
                             <div class="mb16 col-8 col-lg-10 px-4">
-                                <div class="d-md-   flex student-name">
+                                <div class="d-md-flex student-name">
                                     <h1 class="">
                                         <field name="title" widget="inline_many2one" placeholder="Title"/>
                                     </h1>
