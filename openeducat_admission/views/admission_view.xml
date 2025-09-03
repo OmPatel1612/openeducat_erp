@@ -75,7 +75,7 @@
 
                         <div style="width:100%;" class="row align-items-center">
                             <div class="mb16 col-8 col-lg-10 px-4">
-                                <div class="d-flex student-name">
+                                <div class="d-md-flex student-name">
                                     <h1 class="">
                                         <field name="title" widget="inline_many2one" placeholder="Title"/>
                                     </h1>
@@ -183,21 +183,21 @@
                                                nolabel="1"
                                                readonly="state == 'done'"
                                                style="width: 100%%"/>
-                                    </div>
-                                    <div class="address_format">
+                                    </div >
+                                    <div class="address_format col-12 col-lg-4 d-lg-flex d-grid ">
                                         <field name="city" placeholder="City"
-                                               style="width: 40%%"
+                                              
                                                readonly="state == 'done'"/>
                                         <field name="state_id"
                                                options='{"no_open": True}'
                                                readonly="state == 'done'"
                                                placeholder="State"
-                                               style="width: 24%%"/>
+                                               />
                                         <field name="zip" placeholder="ZIP"
-                                               style="width: 34%%"
+                                               
                                                readonly="state == 'done'"/>
                                     </div>
-                                    <div>
+                                    <div class="d-grid">
                                         <field name="country_id" placeholder="Country"
                                                options='{"no_open": True}'
                                                nolabel="1" readonly="state == 'done'"/>

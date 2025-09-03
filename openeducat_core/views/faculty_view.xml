@@ -103,7 +103,7 @@
                                     <field name="birth_date"/>
                                     <label for="type"/>
                                     <div name="div_type">
-                                        <field class="oe_inline" name="type"/>
+                                        <field class="" name="type"/>
                                     </div>
                                     <label for="street" string="Address"/>
                                     <div name="o_address_format">
